@@ -12,19 +12,19 @@ const UploadPage = () => {
     
     */}
     <div>
-    <h1 class="flex items-center justify-center w-full ">Upload Photos</h1>
+    <h1 className="flex items-center justify-center w-full ">Upload Photos</h1>
     
     {/* the upload form */}
-    <div class="max-w-2xl mx-auto">
-<div class="flex items-center justify-center w-full">
+    <div className="max-w-2xl mx-auto">
+<div className="flex items-center justify-center w-full">
 
-        <label for="dropzone-file" class="flex flex-col items-center justify-center w-full h-64 border-2  rounded-lg cursor-pointer bg-[#E29547] ">
-            <div class="flex flex-col items-center justify-center pt-5 pb-6">
-                <svg class="w-10 h-10 mb-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
-                <p class="mb-2 text-sm text-white dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
-                <p class="text-xs text-white dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+        <label htmlFor="dropzone-file" className="flex flex-col items-center justify-center w-full h-64 border-2  rounded-lg cursor-pointer bg-[#E29547] ">
+            <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                <svg className="w-10 h-10 mb-3 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 16a4 4 0 01-.88-7.903A5 5 0 1115.9 6L16 6a5 5 0 011 9.9M15 13l-3-3m0 0l-3 3m3-3v12"></path></svg>
+                <p className="mb-2 text-sm text-white dark:text-gray-400"><span className="font-semibold">Click to upload</span> or drag and drop</p>
+                <p className="text-xs text-white dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
             </div>
-            <input id="dropzone-file" type="file" class="hidden" />
+            <input id="dropzone-file" type="file" className="hidden" />
         </label>
     </div> 
 
@@ -161,7 +161,7 @@ const UploadPage = () => {
  {/* the category and price div ends here */}
    </div>
    <div className='items-center'>
-   <button type="submit" class="block w-4/5 ml-12 mb-5 bg-[#E29547] mt-5 py-2 rounded-2xl hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2">Next</button>
+   <button type="submit" className="block w-4/5 ml-12 mb-5 bg-[#E29547] mt-5 py-2 rounded-2xl hover:bg-indigo-700 hover:-translate-y-1 transition-all duration-500 text-white font-semibold mb-2">Next</button>
    </div>
    <hr className="mb-2" />
    <div className='mt-16 text-[#F3F6F8]'>food</div>
