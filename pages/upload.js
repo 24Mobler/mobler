@@ -1,5 +1,5 @@
 import React from 'react'
-import chair from "../../public/assets/chair.png"
+
 
 const UploadPage = () => {
   return (
