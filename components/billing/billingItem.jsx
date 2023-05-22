@@ -1,7 +1,14 @@
-import React from 'react'
+import React,{useState} from 'react'
+import Thanks from '../modal/thanks'
+
+
 
 const billingItem = () => {
+    const[showModal, setShowModal] = useState(false);
+    const handleOnClose = () => setShowModal(false);
   return (
+    <div>
+   <Thanks visible={showModal}  onClose={handleOnClose}/>
     <div className=' flex-col mt-5 space-y-6'>
         <div className='flex justify-between'>
            
@@ -48,8 +55,13 @@ const billingItem = () => {
         <div>
         <button className="justify-center text-[17px] text-white font-bold flex items-center py-3 w-full  mb-5 space-x-2 rounded-full bg-[#E16A2E]"
               type='submit'
+              onClick={() =>{
+                setShowModal(true)
+              }}
+             
             >Pay $3,439.00</button>
         </div>
+    </div>
     </div>
   )
 }

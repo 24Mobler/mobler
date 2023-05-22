@@ -4,9 +4,13 @@ import Link from 'next/link'
 import { FaArrowLeft } from 'react-icons/fa'
 import CartItem from '../components/billing/billingItem'
 
+
+
+
 const Billing = () => {
   return (
     <Container>
+   
         <div className="lg:w-[50vw] mx-auto">
             <Link href="/home" passHref>
                 <div className="mt-10">
