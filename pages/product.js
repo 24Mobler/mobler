@@ -10,6 +10,7 @@ import { RiArrowGoBackFill, RiShareLine } from 'react-icons/ri';
 
 const ProductPage = () => {
   return (
+    <div>
     <div className="relative">
       <div className="absolute top-0 left-0 right-0">
         <RiArrowGoBackFill className="text-white text-2xl absolute top-4 left-4" />
@@ -111,12 +112,13 @@ const ProductPage = () => {
       </div>
       </div>
      
- 
+      <hr className="mb-2" />
       <div className="flex justify-around mt-4 mb-16">
         <img src={`https://res.cloudinary.com/drczkfgqp/image/upload/v1684681936/Wishlist_znbrbl.png`}/>
         <button className="p-2 flex-initial w-64  rounded bg-[#E16A2E]">Add to cart</button>
        
       </div>
+    </div>
     </div>
   );
 };

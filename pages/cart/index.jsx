@@ -15,8 +15,8 @@ const Cart = () => {
             </Link>
 
             <div className="mt-6">
-                <h2 className="text-[18px] font-semibold">Order Review</h2>
-                <span>3 items in card</span>
+                <h2 className="text-[18px] font-semibold">Billing Summary</h2>
+                {/* <span>3 items in card</span> */}
 
                 <div className="flex flex-col space-y-3 mt-4">
                     <CartItem />
