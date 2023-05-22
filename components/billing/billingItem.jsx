@@ -4,8 +4,8 @@ import Thanks from '../modal/thanks'
 
 
 
-const billingItem = () => {
-    const[showModal, setShowModal] = useState(false);
+const BillingItem = () => {
+    const [showModal, setShowModal] = useState(false);
     const handleOnClose = () => setShowModal(false);
   return (
     <div>
@@ -67,4 +67,4 @@ const billingItem = () => {
   )
 }
 
-export default billingItem
+export default BillingItem
