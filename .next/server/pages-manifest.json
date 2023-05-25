@@ -1,6 +1,26 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/admin": "pages/admin.html",
+  "/checkout": "pages/checkout.html",
+  "/cart": "pages/cart.html",
+  "/home/furnitures": "pages/home/furnitures.html",
+  "/billing": "pages/billing.html",
+  "/home/rooms": "pages/home/rooms.html",
+  "/": "pages/index.html",
+  "/home/products": "pages/home/products.html",
+  "/login": "pages/login.html",
+  "/get-started": "pages/get-started.html",
+  "/home": "pages/home.html",
+  "/profile/edit/gender": "pages/profile/edit/gender.html",
+  "/profile/edit/email": "pages/profile/edit/email.html",
+  "/profile/edit/birthday": "pages/profile/edit/birthday.html",
+  "/profile/edit/phone": "pages/profile/edit/phone.html",
+  "/profile/edit/password": "pages/profile/edit/password.html",
+  "/profile/edit/name": "pages/profile/edit/name.html",
+  "/upload": "pages/upload.html",
+  "/profile": "pages/profile.html",
+  "/product": "pages/product.html",
   "/_document": "pages/_document.js",
-  "/billing": "pages/billing.js"
+  "/404": "pages/404.html"
 }
