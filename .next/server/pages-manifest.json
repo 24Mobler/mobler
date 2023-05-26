@@ -1,5 +1,27 @@
 {
   "/_app": "pages/_app.js",
+  "/calendar": "pages/calendar.html",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js"
+  "/checkout": "pages/checkout.html",
+  "/cart": "pages/cart.html",
+  "/get-started": "pages/get-started.html",
+  "/billing": "pages/billing.html",
+  "/": "pages/index.html",
+  "/home": "pages/home.html",
+  "/home/products": "pages/home/products.html",
+  "/home/rooms": "pages/home/rooms.html",
+  "/home/furnitures": "pages/home/furnitures.html",
+  "/login": "pages/login.html",
+  "/admin": "pages/admin.html",
+  "/profile/edit/birthday": "pages/profile/edit/birthday.html",
+  "/profile/edit/gender": "pages/profile/edit/gender.html",
+  "/profile/edit/email": "pages/profile/edit/email.html",
+  "/profile/edit/name": "pages/profile/edit/name.html",
+  "/profile/edit/phone": "pages/profile/edit/phone.html",
+  "/profile/edit/password": "pages/profile/edit/password.html",
+  "/profile": "pages/profile.html",
+  "/upload": "pages/upload.html",
+  "/product": "pages/product.html",
+  "/_document": "pages/_document.js",
+  "/404": "pages/404.html"
 }
