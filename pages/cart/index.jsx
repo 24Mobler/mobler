@@ -23,7 +23,19 @@ const Cart = () => {
                     <CartItem />
                     <CartItem />
                     <CartItem />
+                    <div className='flex justify-center'>
+                    <Link href="/checkout">
+                  
+        <button className="justify-center  text-[17px] text-white font-bold flex items-center py-3 w-3/5  mb-5 space-x-2 rounded-full bg-[#E16A2E]"
+              
+             
+            >Next</button>
+            </Link> 
+            </div>
                 </div>
+               
+                
+         
             </div>
         </div>
     </Container>

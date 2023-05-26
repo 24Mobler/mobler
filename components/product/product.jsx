@@ -1,5 +1,6 @@
 import React from 'react';
 import { RiArrowGoBackFill, RiShareLine } from 'react-icons/ri';
+import Link from 'next/link'
 
 
 const Product = () => {
@@ -14,7 +15,7 @@ const Product = () => {
             <RiArrowGoBackFill className="text-white bg-[#BFB5AB80] rounded p-2 text-4xl absolute top-4 left-4" />
          
           <button>
-            <RiShareLine className="text-white text-2xl bg-[#BFB5AB80] rounded p-2 text-4xl absolute top-4 right-4" />
+            <RiShareLine className="text-white  bg-[#BFB5AB80] rounded p-2 text-4xl absolute top-4 right-4" />
           </button>
         </div>
         <div
@@ -131,9 +132,11 @@ const Product = () => {
         <div>
         <hr className=' mt-2   mb-2'/>
         </div>
-        <div className="flex justify-around mt-4 ">
+        <div className="flex justify-evenly space-x-4 mt-4 ">
         <img src={`https://res.cloudinary.com/drczkfgqp/image/upload/v1684681936/Wishlist_znbrbl.png`}/>
+        <Link href="/cart">
         <button className="p-2 flex-initial w-64 rounded-lg bg-[#E16A2E]">Add to cart</button>
+        </Link>
        
       </div>
         </div>

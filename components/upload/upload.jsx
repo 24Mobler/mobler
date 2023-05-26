@@ -119,7 +119,7 @@ const upload = () => {
             </div>
             <Select
     closeMenuOnSelect={false}
-    defaultValue={[colourOptions[0], colourOptions[1]]}
+    defaultValue={[]}
     isMulti
     options={colourOptions}
     styles={colourStyles}

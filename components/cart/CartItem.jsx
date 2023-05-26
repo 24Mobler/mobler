@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaBox } from 'react-icons/fa'
+import Link from 'next/link'
 
 const CartItem = () => {
   return (
@@ -21,7 +22,8 @@ const CartItem = () => {
                 <span className="font-semibold text-[13px]">$16.000</span>
             </div>
         </div>
-        <hr className="mb-2" />        
+        <hr className="mb-2" />
+          
     </div>
   )
 }
